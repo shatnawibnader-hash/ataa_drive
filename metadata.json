@@ -1,0 +1,5 @@
+{
+  "name": "School Drive Portal",
+  "description": "A secure portal for accessing school-specific Google Drive folders with password protection and glassmorphism UI.",
+  "requestFramePermissions": []
+}
