@@ -11,6 +11,9 @@ import { School } from './types';
 // MEIS AlMuruj:            muruj55
 // MEIS Ishbilia:           ish88
 // Suivi _ écoles ATAA_FR:  ataa33
+// Al Yasmin International: yasmin44
+// Modern MEIS:             modern22
+// New Meis:                newmeis66
 // ==========================================
 
 export const SCHOOL_DATA: School[] = [
@@ -61,5 +64,23 @@ export const SCHOOL_DATA: School[] = [
     name: 'Suivi _ écoles ATAA_FR',
     url: 'https://drive.google.com/drive/folders/1i6A8B4KaXWn_BX37X0F9Z_Rjjb8hOd7A?usp=drive_link',
     password: 'ataa33'
+  },
+  {
+    id: '9',
+    name: 'Al Yasmin International School',
+    url: 'https://drive.google.com/drive/folders/1Ckg_06a5PAWpKF8LWe5WQBFhzBuQhE7e?usp=drive_link',
+    password: 'yasmin44'
+  },
+  {
+    id: '10',
+    name: 'Modern MEIS',
+    url: 'https://drive.google.com/drive/folders/16Hy188qP9JcO47808SYDPTcuzy9FGE2Q?usp=drive_link',
+    password: 'modern22'
+  },
+  {
+    id: '11',
+    name: 'New Meis',
+    url: 'https://drive.google.com/drive/folders/1Ww5CEBCaCjTPmXG8zkw9kl_ieBzmN5BS?usp=drive_link',
+    password: 'newmeis66'
   }
 ];
