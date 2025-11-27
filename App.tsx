@@ -63,22 +63,27 @@ const App: React.FC = () => {
           >
             School Drive Resource
           </MotionH1>
-          
-          <MotionP 
+
+          {/* Proprietary Rights Section */}
+          <MotionDiv 
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ delay: 0.2 }}
-            className="text-lg text-gray-400 max-w-2xl mx-auto"
+            transition={{ delay: 0.15 }}
+            className="w-full max-w-4xl mx-auto"
           >
-            Access school-specific documents securely. Select your institution below and enter the provided access code to view shared folders.
-          </MotionP>
+            <div className="inline-block bg-gradient-to-r from-purple-500/10 via-blue-500/10 to-purple-500/10 border border-white/10 rounded-xl p-3 backdrop-blur-md shadow-lg">
+               <p className="text-sm md:text-base text-purple-100 font-medium">
+                 <span className="opacity-70">The website's proprietary rights:</span> <span className="text-white font-semibold">Mr. Ihab H. Zeitouneh</span> <span className="opacity-70">/ Academic Supervisor, International Sector, Ataa Educational Company</span>
+               </p>
+            </div>
+          </MotionDiv>
 
           {/* Search Bar */}
           <MotionDiv 
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.3 }}
-            className="max-w-md mx-auto relative group"
+            className="max-w-md mx-auto relative group mt-8"
           >
             <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-gray-500 group-focus-within:text-purple-400 transition-colors">
               <Search size={20} />
